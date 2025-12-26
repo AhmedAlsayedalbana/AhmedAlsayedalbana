@@ -82,162 +82,104 @@
 
 ### 📊 Core Competencies
 
-```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+<div align="center">
 
-"""
+```ascii
 ╔═══════════════════════════════════════════════════════════════╗
 ║           CYBERSECURITY PROFESSIONAL PROFILE                  ║
-║                    Ahmed Alsayed                              ║
+║                      Ahmed Alsayed                            ║
 ╚═══════════════════════════════════════════════════════════════╝
-"""
 
-class CybersecurityExpert:
-    def __init__(self):
-        self.profile = {
-            "identity": {
-                "name": "Ahmed Alsayed",
-                "role": "Cybersecurity Student & Penetration Tester",
-                "location": "Beheira, Egypt",
-                "university": "Alexandria National University",
-                "gpa": 3.45,
-                "year": "Third Year"
-            },
-            
-            "offensive_security": {
-                "🎯 Penetration Testing": [
-                    "Web Application Security Testing",
-                    "Network Penetration & Exploitation",
-                    "Vulnerability Assessment & Management",
-                    "Social Engineering Techniques",
-                    "Exploit Development & Mitigation"
-                ],
-                "🛠️ Tools Arsenal": [
-                    "Burp Suite Professional",
-                    "Metasploit Framework",
-                    "OWASP ZAP",
-                    "Nmap & Nessus",
-                    "Cobalt Strike"
-                ]
-            },
-            
-            "defensive_security": {
-                "🛡️ Security Operations": [
-                    "SOC Level-1 Analyst Workflows",
-                    "SIEM Management (Splunk)",
-                    "Security Incident Response",
-                    "Threat Hunting & Intelligence",
-                    "Log Analysis & Correlation"
-                ],
-                "📊 Monitoring & Analysis": [
-                    "FortiAnalyzer Implementation",
-                    "Syslog Infrastructure Management",
-                    "Network Traffic Analysis",
-                    "Malware Analysis & Detection",
-                    "Cyber Threat Intelligence (CTI)"
-                ]
-            },
-            
-            "network_security": {
-                "🌐 Infrastructure Security": [
-                    "Fortinet Firewall Management (89% Score)",
-                    "IDS/IPS Configuration & Tuning",
-                    "Secure Network Architecture Design",
-                    "VPN & Remote Access Security",
-                    "Zero Trust Network Implementation"
-                ],
-                "🔍 Network Analysis": [
-                    "Packet Analysis (Wireshark)",
-                    "Cisco IOS Security Hardening",
-                    "Network Segmentation & VLANs",
-                    "Traffic Flow Monitoring",
-                    "DDoS Mitigation Strategies"
-                ]
-            },
-            
-            "digital_forensics": {
-                "🔬 Investigation Tools": [
-                    "Autopsy Digital Forensics",
-                    "Volatile Memory Analysis",
-                    "Disk Imaging & Preservation",
-                    "Timeline Analysis & Reconstruction"
-                ],
-                "🕵️ Analysis Techniques": [
-                    "Incident Investigation & Response",
-                    "Malware Reverse Engineering",
-                    "Network Forensics Analysis",
-                    "Mobile Device Forensics"
-                ]
-            },
-            
-            "system_administration": {
-                "🐧 Linux Mastery": [
-                    "Red Hat Enterprise Linux (RHEL) Admin",
-                    "Kali Linux Security Testing",
-                    "Ubuntu Server Hardening",
-                    "SELinux Policy Management"
-                ],
-                "🪟 Windows Environment": [
-                    "Windows Server Administration",
-                    "Active Directory Security",
-                    "Group Policy Management",
-                    "PowerShell Automation"
-                ],
-                "🔥 Security Appliances": [
-                    "Fortinet FortiGate Configuration",
-                    "Cisco ASA Firewall Management"
-                ]
-            },
-            
-            "automation_development": {
-                "🐍 Python Expertise": [
-                    "Security Automation Scripts",
-                    "Custom Exploitation Tools",
-                    "Vulnerability Scanners",
-                    "Network Analysis Tools",
-                    "SIEM Integration Scripts"
-                ],
-                "⚙️ Scripting Languages": [
-                    "Bash Shell Scripting",
-                    "PowerShell Automation",
-                    "Python3 Advanced",
-                    "SQL for Security Analysis"
-                ]
-            },
-            
-            "achievements": {
-                "🏆 Elite Certifications": [
-                    "eJPT - Junior Penetration Tester",
-                    "SANS450 - Security Essentials",
-                    "CCNA - Cisco Certified Network Associate",
-                    "Azure AZ-900 Fundamentals",
-                    "Red Hat Certified System Administrator"
-                ],
-                "📜 Total Credentials": "20+ Professional Certifications",
-                "🎓 Training Institutes": ["ITI", "NTI"],
-                "💯 Notable Score": "Fortinet Certification (89%)"
-            }
-        }
-    
-    def get_expertise_summary(self):
-        """Return a concise expertise summary"""
-        return """
-    ┌─────────────────────────────────────────────────────────────┐
-    │  🔐 Cybersecurity Student & Penetration Tester              │
-    │  🏆 eJPT & SANS450 Certified | 20+ Professional Certs      │
-    │  🎯 Specialized in Offensive & Defensive Security           │
-    │  🐍 Python Security Automation Expert                       │
-    │  🌐 Network Security Specialist (Fortinet 89%)              │
-    │  🛡️ SOC Analyst | Threat Hunter | Incident Responder       │
-    └─────────────────────────────────────────────────────────────┘
-        """
+┌─────────────────────────────────────────────────────────────┐
+│  👤 Identity                                                 │
+├─────────────────────────────────────────────────────────────┤
+│  Name: Ahmed Alsayed                                        │
+│  Role: Cybersecurity Student & Penetration Tester           │
+│  Location: Beheira, Egypt                                   │
+│  University: Alexandria National University                 │
+│  GPA: 3.45 | Year: Third Year                              │
+└─────────────────────────────────────────────────────────────┘
 
+┌─────────────────────────────────────────────────────────────┐
+│  🎯 OFFENSIVE SECURITY                                       │
+├─────────────────────────────────────────────────────────────┤
+│  • Web Application Security Testing                         │
+│  • Network Penetration & Exploitation                       │
+│  • Vulnerability Assessment & Management                    │
+│  • Social Engineering Techniques                            │
+│  • Exploit Development & Mitigation                         │
+│                                                             │
+│  Tools: Burp Suite Pro | Metasploit | OWASP ZAP            │
+└─────────────────────────────────────────────────────────────┘
 
-# Initialize and display profile
-expert = CybersecurityExpert()
-print(expert.get_expertise_summary())
+┌─────────────────────────────────────────────────────────────┐
+│  🛡️ DEFENSIVE SECURITY                                       │
+├─────────────────────────────────────────────────────────────┤
+│  • SOC Level-1 Analyst Workflows                            │
+│  • SIEM Management (Splunk)                                 │
+│  • Security Incident Response                               │
+│  • Threat Hunting & Intelligence                            │
+│  • Log Analysis & Correlation                               │
+│  • FortiAnalyzer Implementation                             │
+│  • Cyber Threat Intelligence (CTI)                          │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  🌐 NETWORK SECURITY                                         │
+├─────────────────────────────────────────────────────────────┤
+│  • Fortinet Firewall Management (89% Score)                 │
+│  • IDS/IPS Configuration & Tuning                           │
+│  • Secure Network Architecture Design                       │
+│  • Packet Analysis (Wireshark)                              │
+│  • Cisco IOS Security Hardening                             │
+│  • Zero Trust Network Implementation                        │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  🔬 DIGITAL FORENSICS                                        │
+├─────────────────────────────────────────────────────────────┤
+│  • Autopsy Digital Forensics                                │
+│  • Incident Investigation & Response                        │
+│  • Malware Reverse Engineering                              │
+│  • Network Forensics Analysis                               │
+│  • Timeline Analysis & Reconstruction                       │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  🐍 AUTOMATION & SCRIPTING                                   │
+├─────────────────────────────────────────────────────────────┤
+│  • Python Security Automation Scripts                       │
+│  • Custom Exploitation Tools Development                    │
+│  • Bash Shell Scripting                                     │
+│  • PowerShell Automation                                    │
+│  • Vulnerability Scanners                                   │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  🏆 ACHIEVEMENTS & CERTIFICATIONS                            │
+├─────────────────────────────────────────────────────────────┤
+│  ✓ eJPT - Junior Penetration Tester                        │
+│  ✓ SANS450 - Security Essentials                           │
+│  ✓ CCNA - Cisco Certified Network Associate                │
+│  ✓ Azure AZ-900 Fundamentals                               │
+│  ✓ Red Hat Certified System Administrator                  │
+│                                                             │
+│  📜 Total: 20+ Professional Certifications                  │
+│  🎓 Training: ITI & NTI Institutes                          │
+│  💯 Fortinet Score: 89%                                     │
+└─────────────────────────────────────────────────────────────┘
+
+    ╔═══════════════════════════════════════════════════════╗
+    ║  🔐 Cybersecurity Student & Penetration Tester        ║
+    ║  🏆 eJPT & SANS450 Certified | 20+ Certs              ║
+    ║  🎯 Offensive & Defensive Security Specialist         ║
+    ║  🐍 Python Security Automation Expert                 ║
+    ║  🌐 Network Security Specialist (Fortinet 89%)        ║
+    ║  🛡️ SOC Analyst | Threat Hunter | Incident Responder ║
+    ╚═══════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 ---
 
@@ -396,13 +338,13 @@ pie title "Cybersecurity Expertise Areas"
 
 <div align="center">
 
-```python
-current_focus = {
-    "🔬 Research": "Advanced Penetration Testing Techniques",
-    "🛠️ Building": "Custom Security Automation Tools",
-    "📖 Learning": "Advanced Exploit Development",
-    "🎯 Goal": "Become a Certified Penetration Testing Expert"
-}
+```ascii
+┌─────────────────────────────────────────────────────────────┐
+│  🔬 Research: Advanced Penetration Testing Techniques       │
+│  🛠️ Building: Custom Security Automation Tools              │
+│  📖 Learning: Advanced Exploit Development                  │
+│  🎯 Goal: Become a Certified Penetration Testing Expert     │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 </div>
