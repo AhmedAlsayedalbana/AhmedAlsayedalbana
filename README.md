@@ -83,62 +83,160 @@
 ### 📊 Core Competencies
 
 ```python
-cybersecurity_expert = {
-    "name": "Ahmed Alsayed",
-    "role": "Cybersecurity Student & Penetration Tester",
-    
-    "penetration_testing": [
-        "Web Application Testing",
-        "Network Penetration",
-        "Vulnerability Assessment",
-        "OWASP ZAP",
-        "Burp Suite Professional"
-    ],
-    
-    "security_operations": [
-        "SOC Level-1 Workflows",
-        "SIEM (Splunk)",
-        "FortiAnalyzer",
-        "Syslog Management",
-        "Threat Intelligence",
-        "Incident Response",
-        "Log Analysis for Cyber Defense"
-    ],
-    
-    "network_security": [
-        "Fortinet Firewall Management (89% Score)",
-        "IDS/IPS",
-        "Network Architecture Design",
-        "Packet Analysis (Wireshark)",
-        "Cisco IOS"
-    ],
-    
-    "forensics_and_analysis": [
-        "Autopsy",
-        "Digital Forensics",
-        "Threat Analysis",
-        "Network Monitoring Tools"
-    ],
-    
-    "system_administration": [
-        "Red Hat Enterprise Linux (RHEL)",
-        "Kali Linux",
-        "Windows Server",
-        "Fortinet FortiGate"
-    ],
-    
-    "automation_and_scripting": [
-        "Python Security Automation",
-        "Bash Scripting",
-        "PowerShell",
-        "Custom Tool Development"
-    ],
-    
-    "certifications": "20+ Professional Certifications",
-    "achievement": "eJPT & SANS450 Certified"
-}
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-print(f"🔐 {cybersecurity_expert['role']} | {cybersecurity_expert['achievement']}")
+"""
+╔═══════════════════════════════════════════════════════════════╗
+║           CYBERSECURITY PROFESSIONAL PROFILE                  ║
+║                    Ahmed Alsayed                              ║
+╚═══════════════════════════════════════════════════════════════╝
+"""
+
+class CybersecurityExpert:
+    def __init__(self):
+        self.profile = {
+            "identity": {
+                "name": "Ahmed Alsayed",
+                "role": "Cybersecurity Student & Penetration Tester",
+                "location": "Beheira, Egypt",
+                "university": "Alexandria National University",
+                "gpa": 3.45,
+                "year": "Third Year"
+            },
+            
+            "offensive_security": {
+                "🎯 Penetration Testing": [
+                    "Web Application Security Testing",
+                    "Network Penetration & Exploitation",
+                    "Vulnerability Assessment & Management",
+                    "Social Engineering Techniques",
+                    "Exploit Development & Mitigation"
+                ],
+                "🛠️ Tools Arsenal": [
+                    "Burp Suite Professional",
+                    "Metasploit Framework",
+                    "OWASP ZAP",
+                    "Nmap & Nessus",
+                    "Cobalt Strike"
+                ]
+            },
+            
+            "defensive_security": {
+                "🛡️ Security Operations": [
+                    "SOC Level-1 Analyst Workflows",
+                    "SIEM Management (Splunk)",
+                    "Security Incident Response",
+                    "Threat Hunting & Intelligence",
+                    "Log Analysis & Correlation"
+                ],
+                "📊 Monitoring & Analysis": [
+                    "FortiAnalyzer Implementation",
+                    "Syslog Infrastructure Management",
+                    "Network Traffic Analysis",
+                    "Malware Analysis & Detection",
+                    "Cyber Threat Intelligence (CTI)"
+                ]
+            },
+            
+            "network_security": {
+                "🌐 Infrastructure Security": [
+                    "Fortinet Firewall Management (89% Score)",
+                    "IDS/IPS Configuration & Tuning",
+                    "Secure Network Architecture Design",
+                    "VPN & Remote Access Security",
+                    "Zero Trust Network Implementation"
+                ],
+                "🔍 Network Analysis": [
+                    "Packet Analysis (Wireshark)",
+                    "Cisco IOS Security Hardening",
+                    "Network Segmentation & VLANs",
+                    "Traffic Flow Monitoring",
+                    "DDoS Mitigation Strategies"
+                ]
+            },
+            
+            "digital_forensics": {
+                "🔬 Investigation Tools": [
+                    "Autopsy Digital Forensics",
+                    "Volatile Memory Analysis",
+                    "Disk Imaging & Preservation",
+                    "Timeline Analysis & Reconstruction"
+                ],
+                "🕵️ Analysis Techniques": [
+                    "Incident Investigation & Response",
+                    "Malware Reverse Engineering",
+                    "Network Forensics Analysis",
+                    "Mobile Device Forensics"
+                ]
+            },
+            
+            "system_administration": {
+                "🐧 Linux Mastery": [
+                    "Red Hat Enterprise Linux (RHEL) Admin",
+                    "Kali Linux Security Testing",
+                    "Ubuntu Server Hardening",
+                    "SELinux Policy Management"
+                ],
+                "🪟 Windows Environment": [
+                    "Windows Server Administration",
+                    "Active Directory Security",
+                    "Group Policy Management",
+                    "PowerShell Automation"
+                ],
+                "🔥 Security Appliances": [
+                    "Fortinet FortiGate Configuration",
+                    "Cisco ASA Firewall Management"
+                ]
+            },
+            
+            "automation_development": {
+                "🐍 Python Expertise": [
+                    "Security Automation Scripts",
+                    "Custom Exploitation Tools",
+                    "Vulnerability Scanners",
+                    "Network Analysis Tools",
+                    "SIEM Integration Scripts"
+                ],
+                "⚙️ Scripting Languages": [
+                    "Bash Shell Scripting",
+                    "PowerShell Automation",
+                    "Python3 Advanced",
+                    "SQL for Security Analysis"
+                ]
+            },
+            
+            "achievements": {
+                "🏆 Elite Certifications": [
+                    "eJPT - Junior Penetration Tester",
+                    "SANS450 - Security Essentials",
+                    "CCNA - Cisco Certified Network Associate",
+                    "Azure AZ-900 Fundamentals",
+                    "Red Hat Certified System Administrator"
+                ],
+                "📜 Total Credentials": "20+ Professional Certifications",
+                "🎓 Training Institutes": ["ITI", "NTI"],
+                "💯 Notable Score": "Fortinet Certification (89%)"
+            }
+        }
+    
+    def get_expertise_summary(self):
+        """Return a concise expertise summary"""
+        return """
+    ┌─────────────────────────────────────────────────────────────┐
+    │  🔐 Cybersecurity Student & Penetration Tester              │
+    │  🏆 eJPT & SANS450 Certified | 20+ Professional Certs      │
+    │  🎯 Specialized in Offensive & Defensive Security           │
+    │  🐍 Python Security Automation Expert                       │
+    │  🌐 Network Security Specialist (Fortinet 89%)              │
+    │  🛡️ SOC Analyst | Threat Hunter | Incident Responder       │
+    └─────────────────────────────────────────────────────────────┘
+        """
+
+
+# Initialize and display profile
+expert = CybersecurityExpert()
+print(expert.get_expertise_summary())
 ```
 
 ---
