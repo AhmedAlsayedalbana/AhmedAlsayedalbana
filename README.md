@@ -14,7 +14,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2w4ZDZvZ3l5dGt4M3U3YnE4aGttZXFhYzY2ZGh5ZXd5dGJhZHdrYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Cybersecurity Animation"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2w4ZDZvZ3l5dGt4M3U3YnE4aGttZXFhYzY2ZGh5ZXd5dGJhZHdrYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Cybersecurity Animation"/>
 </p>
 
 ---
@@ -226,19 +226,46 @@ mindmap
 
 ---
 
-### 📈 GitHub Stats
+### 📈 GitHub Journey
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AhmedAlsayedalbana&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=c9d1d9&ring_color=00F7FF" height="180" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedAlsayedalbana&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=c9d1d9" height="180" alt="languages graph" />
+  
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt="Coding GIF"/>
+
+#### 🚀 Building My Cybersecurity Portfolio
+
+```ascii
+┌─────────────────────────────────────────┐
+│  📦 Security Tools & Scripts            │
+│  🔐 CTF Writeups & Walkthroughs         │
+│  🛡️ Penetration Testing Frameworks      │
+│  🐍 Python Security Automation          │
+│  📚 Learning Resources & Notes          │
+└─────────────────────────────────────────┘
+```
+
+<img src="https://img.shields.io/badge/Focus-Offensive_Security-FF6B6B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Focus-Defensive_Security-00F7FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Focus-Network_Security-9FEF00?style=for-the-badge" />
+
 </div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=AhmedAlsayedalbana&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5&date_format=j%20M%5B%20Y%5D&background=0D1117&stroke=00F7FF&ring=00F7FF&fire=FF6B6B&currStreakNum=00F7FF&sideNums=00F7FF&currStreakLabel=00F7FF&sideLabels=00F7FF&dates=8B949E" height="150" alt="streak graph" />
-</div>
+---
+
+### 📊 Skills Distribution
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AhmedAlsayedalbana&bg_color=0d1117&color=00f7ff&line=00f7ff&point=ffffff&area=true&hide_border=true" alt="contribution graph" />
+
+```mermaid
+%%{init: {'theme':'dark'}}%%
+pie title "Cybersecurity Expertise Areas"
+    "Penetration Testing" : 30
+    "Network Security" : 25
+    "Security Operations" : 20
+    "Python Automation" : 15
+    "Forensics & Analysis" : 10
+```
+
 </div>
 
 ---
@@ -267,12 +294,20 @@ mindmap
 
 ---
 
-### 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-- 🔐 Coming Soon: Penetration Testing Methodologies
-- 🛡️ Coming Soon: Building a Home SOC Lab
-- 🐍 Coming Soon: Python Security Automation Scripts
-<!-- BLOG-POST-LIST:END -->
+### 📝 Latest Projects & Contributions
+
+<div align="center">
+
+```python
+current_focus = {
+    "🔬 Research": "Advanced Penetration Testing Techniques",
+    "🛠️ Building": "Custom Security Automation Tools",
+    "📖 Learning": "Advanced Exploit Development",
+    "🎯 Goal": "Become a Certified Penetration Testing Expert"
+}
+```
+
+</div>
 
 ---
 
